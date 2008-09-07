@@ -1,0 +1,15 @@
+= Application Theme
+
+Provides the ability to make changes to the Radiant interface without 
+changing the underlying layout file. The Help Inline extension provides 
+an example of adding a stylesheet to the interface, but here is a brief example:
+
+  ApplicationController.methods_after_set_javascripts_and_stylesheets << :add_inline_help_files
+
+  def add_inline_help_files
+    @stylesheets << 'admin/help'
+  end
+
+See http://github.com/saturnflyer/radiant-help_inline-extension/tree/master for the full example.
+
+Built by Saturn Flyer http://www.saturnflyer.com
