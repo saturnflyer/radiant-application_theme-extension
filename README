@@ -12,4 +12,9 @@ an example of adding a stylesheet to the interface, but here is a brief example:
 
 See http://github.com/saturnflyer/radiant-help_inline-extension/tree/master for the full example.
 
+Why is this important? Because you can change the interface application-wide from your extension.
+
+If you want to build a new interface for a client, but don't want to alter the default layout file,
+you can use stylesheets and javascripts to do the work for you.
+
 Built by Saturn Flyer http://www.saturnflyer.com
